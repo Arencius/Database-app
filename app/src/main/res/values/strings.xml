@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Database_app</string>
+    <string name="openPopup">Add song</string>
+    <string name="search">Open browser</string>
+    <string name="title_hint">Song title</string>
+    <string name="artist_hint">Artist</string>
+    <string name="album_hint">Song album</string>
+    <string name="duration_hint">Song duration (mm:ss)</string>
+    <string name="views_hint">Number of views</string>
+    <string name="add">Add song</string>
+    <string name="search_by">Search by:</string>
+    <string name="show_results">Show results</string>
+    <string name="all">All songs</string>
+    <string name="database_browser">Database browser</string>
+
+</resources>
