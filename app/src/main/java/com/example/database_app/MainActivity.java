@@ -67,7 +67,6 @@ public class MainActivity extends AppCompatActivity{
                         durationEntry.setText("");
                     } else {
                         int viewsInt = Integer.parseInt(views);
-                        //viewsInt = viewsInt<0 ? 100000 : viewsInt;   // setting 100 000 views in case user entered negative number
 
                         manager.insert(title, artist, album, duration, viewsInt);
                         Toast.makeText(MainActivity.this, "Song added to database", Toast.LENGTH_SHORT).show();
