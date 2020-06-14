@@ -32,7 +32,7 @@ public class DatabaseManager {
                     "%s text," +
                     "%s text," +
                     "%s text," +
-                    "%s int);", "songs", TABLE_ROW_TITLE, TABLE_ROW_ARTIST, TABLE_ROW_ALBUM, TABLE_ROW_DURATION, TABLE_ROW_VIEWS);
+                    "%s int);", TABLE_NAME, TABLE_ROW_TITLE, TABLE_ROW_ARTIST, TABLE_ROW_ALBUM, TABLE_ROW_DURATION, TABLE_ROW_VIEWS);
             db.execSQL(newQuery);
         }
 
@@ -49,6 +49,7 @@ public class DatabaseManager {
     }
 
     public void insert(String title, String artist, String album, String dur, int views) {
+        // adds record to the database
           ContentValues values = new ContentValues();
 
           values.put(TABLE_ROW_TITLE, title);
